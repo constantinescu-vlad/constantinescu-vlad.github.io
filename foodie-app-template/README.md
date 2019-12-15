@@ -1,10 +1,10 @@
 # Restaurant finder app template
 
-Built with [react-native-paper]("https://reactnativepaper.com/")
-
 React version: "16.9.0"
 
 React-native version: "0.61.2"
+
+Built with [react-native-paper]("https://reactnativepaper.com/")
 
 ## Installation
 

@@ -6,7 +6,7 @@ React-native version: "0.61.2"
 
 #### Installation
 
-```shell-script
+```shell
 // cd into folder project and install dependencies
 cd foodie && npm install
 
