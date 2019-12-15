@@ -1,4 +1,4 @@
-Built with [react-native-paper]("https://reactnativepaper.com/")
+Built with [react-native-paper](https://reactnativepaper.com/)
 
 React version: "16.9.0"
 
@@ -73,7 +73,7 @@ react-native run-android
 |**`children`**|`ReactNode`|`No`|`null`|
 
 ##### DistanceInputSlider
-Check [`react-native-slider`]("https://github.com/react-native-community/react-native-slider") props
+Check [`react-native-slider`](https://github.com/react-native-community/react-native-slider) props
 
 ##### Input
 |Prop|Type|Required|Default|

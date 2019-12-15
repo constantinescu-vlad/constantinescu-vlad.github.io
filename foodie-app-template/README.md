@@ -1,12 +1,10 @@
 # Restaurant finder app template
 
-
-
 React version: "16.9.0"
 
 React-native version: "0.61.2"
 
-Built with [react-native-paper]("https://reactnativepaper.com/")
+Built with [react-native-paper](https://reactnativepaper.com/)
 
 ## Installation
 
@@ -77,7 +75,7 @@ react-native run-android
 |**`children`**|`ReactNode`|`No`|`null`|
 
 ##### DistanceInputSlider
-Check [`react-native-slider`]("https://github.com/react-native-community/react-native-slider") props
+Check [`react-native-slider`](https://github.com/react-native-community/react-native-slider) props
 
 ##### Input
 |Prop|Type|Required|Default|
