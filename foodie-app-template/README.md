@@ -1,5 +1,7 @@
 # Restaurant finder app template
 
+
+
 React version: "16.9.0"
 
 React-native version: "0.61.2"
