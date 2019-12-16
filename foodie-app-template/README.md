@@ -1,8 +1,15 @@
-# Restaurant finder app template
+![preview](_media/preview.jpg)
 
-React version: "16.9.0"
+## What's inside
 
-React-native version: "0.61.2"
+- 20+ screens
+- Organized app structure that can be easily scaled
+- Reusable components
+
+Foodie is a React Native Theme consist of 20+ screens with all UI components you might need for your next Restaurant Application. This project does not contain any back end functionality and its purpose is to provide you with almost all Front End component to get started with your Restaurant Application.
+
+React version: "16.9.0"  
+React-native version: "0.61.2"  
 
 Built with [react-native-paper](https://reactnativepaper.com/)
 
