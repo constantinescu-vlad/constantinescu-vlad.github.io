@@ -43,21 +43,21 @@ react-native run-android
    
 ## Core components props
 
-##### AppLogo
+### AppLogo
 |Prop|Type|Required|Default|
 |---|---|---|---|
 |**`color`**|`string`|`No`|`#eee`|
 |**`style`**|`object`|`No`|`null`|
 |**`light`**|`boolean`|`No`|`true`|
 
-##### AvatarUploader
+### AvatarUploader
 |Prop|Type|Required|Default|
 |---|---|---|---|
 |**`size`**|`number`|`No`|`100`|
 |**`icon`**|`string`|`No`|`camera-alt`|
 |**`style`**|`object`|`No`|`null`|
 
-##### BackgroundCover
+### BackgroundCover
 |Prop|Type|Required|Default|
 |---|---|---|---|
 |**`screen`**|`boolean`|`No`|`false`|
@@ -67,7 +67,7 @@ react-native run-android
 |**`style`**|`object`|`No`|`null`|
 |**`imageStyle`**|`object`|`No`|`null`|
 
-##### Button
+### Button
 |Prop|Type|Required|Default|
 |---|---|---|---|
 |**`buttonStyle`**|`object`|`No`|`false`|
@@ -76,15 +76,15 @@ react-native run-android
 |**`style`**|`object`|`No`|`null`|
 |**`fontSize`**|`number`|`No`|`null`|
 
-##### Container
+### Container
 |Prop|Type|Required|Default|
 |---|---|---|---|
 |**`children`**|`ReactNode`|`No`|`null`|
 
-##### DistanceInputSlider
+### DistanceInputSlider
 Check [`react-native-slider`](https://github.com/react-native-community/react-native-slider) props
 
-##### Input
+### Input
 |Prop|Type|Required|Default|
 |---|---|---|---|
 |**`icon`**|`string`|`Yes`|`null`|
