@@ -13,6 +13,10 @@ React-native version: "0.61.2"
 
 Built with [react-native-paper](https://reactnativepaper.com/)
 
+![screens](_media/screens.png)
+
+
+
 ## Installation
 
 ```shell
