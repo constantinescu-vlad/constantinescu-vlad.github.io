@@ -95,3 +95,83 @@ Check [`react-native-slider`](https://github.com/react-native-community/react-na
 |**`iconColor`**|`string`|`No`|`null`|
 |**`style`**|`object`|`No`|`null`|
 |**`inputWrapperStyle`**|`object`|`No`|`null`|
+
+## Restaurant component props
+
+### RestaurantCategoryLabel
+
+|Prop|Type|Required|Default|
+|---|---|---|---|
+|**`category`**|`object`|`Yes`|`null`|
+|**`style`**|`object`|`No`|`null`|
+
+```typescript
+type Category {
+    id: Number,
+    name: String,
+    color: String,
+    avatar: String
+}
+```
+### RestaurantImageHeader
+
+|Prop|Type|Required|Default|
+|---|---|---|---|
+|**`restaurant`**|`object`|`Yes`|`null`|
+
+```typescript
+type Restaurant {
+    id: Number,
+    name: String,
+    address: String,
+    open: Boolean,
+    avatar: String
+}
+```
+
+### RestaurantItem
+
+|Prop|Type|Required|Default|
+|---|---|---|---|
+|**`restaurant`**|`object`|`Yes`|`null`|
+|**`style`**|`object`|`No`|`null`|
+
+### RestaurantPhotoGrid
+
+|Prop|Type|Required|Default|
+|---|---|---|---|
+|**`photos`**|`array`|`Yes`|`null`|
+
+### RestaurantRating
+
+|Prop|Type|Required|Default|
+|---|---|---|---|
+|**`rating`**|`number`|`Yes`|`null`|
+|**`style`**|`object`|`No`|`null`|
+
+### RestaurantReviews
+
+|Prop|Type|Required|Default|
+|---|---|---|---|
+|**`reviews`**|`array`|`Yes`|`null`|
+
+### RestaurantReviews
+
+|Prop|Type|Required|Default|
+|---|---|---|---|
+|**`onFilterPress`**|`Function`|`Yes`|`null`|
+
+### RestaurantStatus
+
+|Prop|Type|Required|Default|
+|---|---|---|---|
+|**`open`**|`boolean`|`Yes`|`null`|
+|**`style`**|`object`|`No`|`null`|
+
+### TrendingRestaurants
+
+|Prop|Type|Required|Default|
+|---|---|---|---|
+|**`view`**|`string`|`No`|`carousel`|
+|**`itemStyle`**|`object`|`No`|``` { marginBottom: 20 } ```|
+|**`onItemPress`**|`Function`|`Yes`|``` () => null ```|
