@@ -15,8 +15,6 @@ Built with [react-native-paper](https://reactnativepaper.com/)
 
 ![screens](_media/screens.png)
 
-
-
 ## Installation
 
 ```shell
@@ -45,6 +43,32 @@ react-native run-android
    - `navigation`: Here you can find the navigation setup files
    - `screens`: This folder contains all of the application screens
    
+
+## Editing the app
+
+In order to change the app name you need to modify the app.json and change the 'name' and 'displayName' properties and also the 'app_name' property from **src/android/app/src/main/res/values/strings.xml**.
+
+You can edit the app theme colors and fonts by modifying the src/constants/Theme.js file. For mor details about the Theme configuration check [react-native-paper](https://callstack.github.io/react-native-paper/theming.html) documentation.
+
+In order to change the application logo you need to edit the src/components/core/AppLogo.js file. You can either edit the text or replace it with a react native image component.
+
+```javascript
+return (
+    <View style={style}>
+        <Text style={[STYLES.title, { color: logoColor }]}>MyApp</Text>
+    </View>
+);
+```
+or 
+
+```javascript
+return (
+    <View style={style}>
+        <Image source={PATHT_TO_IMAGE_FILE} style={{width: LOGO_WIDTH, height: LOGO_HEIGHT}} />
+    </View>
+);
+```
+
 ## Core components props
 
 ### AppLogo
