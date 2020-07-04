@@ -13,9 +13,9 @@ React-native version: "0.61.2"
 
 Built with [react-native-paper](https://reactnativepaper.com/)
 
-![screens](_media/screens.png)
+## [Download it now](https://codecanyon.net/item/react-native-restaurant-finder-app-template/25341591)
 
-[Download it now](https://codecanyon.net/item/react-native-restaurant-finder-app-template/25341591)
+![screens](_media/screens.png)
 
 ## Installation
 
