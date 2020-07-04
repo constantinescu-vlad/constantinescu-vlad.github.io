@@ -15,6 +15,8 @@ Built with [react-native-paper](https://reactnativepaper.com/)
 
 ![screens](_media/screens.png)
 
+[Download it now](https://codecanyon.net/item/react-native-restaurant-finder-app-template/25341591)
+
 ## Installation
 
 ```shell
